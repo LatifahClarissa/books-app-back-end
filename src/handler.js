@@ -79,7 +79,7 @@ const addBookHandler = (request, h) => {
 const getAllBooksHandler = () => ({
   status: 'success',
   data: {
-    books: [],
+    books,
   },
 });
 
